@@ -23,5 +23,8 @@
     -fx-border-radius: 25;
     -fx-border-width: 4;
     -fx-background-radius: 25;
+    -fx-font-size: 35;
+    -fx-font-weight: bold;
+    -fx-text-fill: pink;
 }
 
