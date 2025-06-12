@@ -1,0 +1,27 @@
+.button {
+    -fx-background-radius: 25;
+    -fx-background-color: #a2ffa7;
+    -fx-border-color: #91f697;
+    -fx-border-radius: 25;
+    -fx-border-width: 4;
+    -fx-text-fill: pink;
+    -fx-font-size: 25;
+    -fx-font-weight: bold;
+}
+
+.pane {
+    -fx-background-color: pink;
+    -fx-background-radius: 25;
+    -fx-border-radius: 25;
+    -fx-border-width: 4;
+    -fx-border-color: #91f697;
+}
+
+.label {
+    -fx-background-color: #a2ffa7;
+    -fx-border-color: #91f697;
+    -fx-border-radius: 25;
+    -fx-border-width: 4;
+    -fx-background-radius: 25;
+}
+
