@@ -27,8 +27,8 @@
             <Button fx:id="equalButton" layoutX="341.0" layoutY="588.0" mnemonicParsing="false" onAction="#equal" prefHeight="77.0" prefWidth="84.0" text="=" />
             <Button fx:id="divButton" layoutX="341.0" layoutY="490.0" mnemonicParsing="false" onAction="#div" prefHeight="77.0" prefWidth="84.0" text="/" />
             <Button fx:id="sevenButton" layoutX="27.0" layoutY="273.0" mnemonicParsing="false" onAction="#typeSeven" prefHeight="77.0" prefWidth="84.0" text="7" />
-            <Button fx:id="deleteAllButton" layoutX="27.0" layoutY="167.0" mnemonicParsing="false" onAction="#deleteAll" prefHeight="77.0" prefWidth="84.0" text="AC" />
-            <Button fx:id="klammerLinksButton" layoutX="130.0" layoutY="167.0" mnemonicParsing="false" onAction="#klammerLinks" prefHeight="77.0" prefWidth="84.0" text="(" />
+            <Button fx:id="deleteAllButton" layoutX="27.0" layoutY="167.0" mnemonicParsing="false" onAction="#deleteAll" prefHeight="77.0" prefWidth="84.0" stylesheets="@style.css" text="AC" />
+            <Button fx:id="klammerLinksButton" layoutX="130.0" layoutY="167.0" mnemonicParsing="false" onAction="#klammerLinks" prefHeight="77.0" prefWidth="84.0" stylesheets="@style.css" text="(" />
             <Button fx:id="klammerRechtsButton" layoutX="234.0" layoutY="167.0" mnemonicParsing="false" onAction="#klammerRechts" prefHeight="77.0" prefWidth="84.0" text=")" />
             <Button fx:id="plusButton" layoutX="341.0" layoutY="167.0" mnemonicParsing="false" onAction="#plus" prefHeight="77.0" prefWidth="84.0" text="+" />
             <Label fx:id="outputField" alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="27.0" layoutY="26.0" prefHeight="115.0" prefWidth="399.0" />
